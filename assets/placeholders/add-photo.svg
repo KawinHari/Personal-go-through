@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-labelledby="title desc">
+  <title id="title">Photo placeholder</title>
+  <desc id="desc">A patterned area prompting you to add your own photo</desc>
+  <defs>
+    <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="3" fill="#1d2940" opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="900" fill="#fffdf8"/>
+  <rect width="800" height="900" fill="url(#dots)"/>
+  <rect x="68" y="68" width="664" height="764" rx="8" fill="none" stroke="#1d2940" stroke-width="4" stroke-dasharray="15 15" opacity=".45"/>
+  <g fill="#1d2940" text-anchor="middle">
+    <path d="M370 343h60v-58h-60zm-83 190h226c10 0 18-8 18-18V389c0-10-8-18-18-18H287c-10 0-18 8-18 18v126c0 10 8 18 18 18zm20-40 55-70 43 48 32-36 57 58z"/>
+    <text x="400" y="613" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4">ADD A PHOTO</text>
+    <text x="400" y="658" font-family="Arial, sans-serif" font-size="20" letter-spacing="2" opacity=".7">YOUR MEMORY GOES HERE</text>
+  </g>
+</svg>

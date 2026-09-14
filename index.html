@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A colourful personal journey, from childhood to today." />
+    <title>My Life in Colour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ================================================================
+         SITE HEADER / NAVIGATION
+         ================================================================ -->
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">Kawin's Diary<span>✦</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#journey">The journey</a>
+        <a href="#now">Today</a>
+        <a href="#hello">Say hello</a>
+      </nav>
+      <a class="header-note" href="#journey">2004 — now <span>↓</span></a>
+    </header>
+
+    <main id="top">
+      <!-- ================================================================
+           HERO — Update the name, introduction, and two featured photos here.
+           Photo files should go in assets/photos/.
+           ================================================================ -->
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> A personal archive</p>
+          <h1>Still a kid,<br /><em>Figuring out life.</em></h1>
+          <p class="intro">Hello, I’m <strong>Kawin Hari</strong> — Software Engineer, an athlete, badminton player, and keyboard player. This is a little walk through the people, passions, and dreams that made me.</p>
+          <div class="hero-roles" aria-label="Kawin's passions"><span>Badminton</span><span>Keyboard</span><span>Athlete</span></div>
+          <a class="button button-dark" href="#journey">Start the story <span>↘</span></a>
+        </div>
+
+        <div class="hero-collage reveal" aria-label="A space for your featured photographs">
+          <!-- Replace the placeholder image paths below with your own files. -->
+          <figure class="polaroid hero-polaroid polaroid-one tilt-left" data-full="assets/photos/hero-childhood.jpg" data-caption="Kawin, age 6 — always dreaming up something.">
+            <div class="image-wrap"><img src="assets/placeholders/image2.jpeg" alt="Add childhood photo" /></div>
+            <figcaption>Kawin, age 1 <span>★</span></figcaption>
+          </figure>
+          <figure class="simple-photo hero-photo photo-sun" data-full="assets/placeholder/image1.jpg" data-caption="This boy is the kid after 22 year from the first picture.">
+            <img src="assets/placeholders/image1.jpg" alt="Add a recent photo" />
+          </figure>
+          <div class="sticker sticker-heart">♥</div>
+          <div class="hero-squiggle">~</div>
+          <div class="shuttlecock" aria-hidden="true"><i></i><i></i><i></i><b></b></div>
+          <div class="music-note note-one" aria-hidden="true">♪</div>
+          <div class="music-note note-two" aria-hidden="true">♫</div>
+          <p class="collage-note">tiny moments,<br />big memories</p>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           MOVING PASSION BANNER — Edit these short words if you like.
+           ================================================================ -->
+      <section class="marquee" aria-label="Personal values">
+        <div class="marquee-track">
+          <span>Travel</span><b>✦</b><span>Software Engineer</span><b>✦</b><span>Wanderlust</span><b>✦</b><span>athlete at heart</span><b>✦</b><span>Nature Lover</span><b>✦</b>
+          <span>Travel</span><b>✦</b><span>Software Engineer</span><b>✦</b><span>Wanderlust</span><b>✦</b><span>athlete at heart</span><b>✦</b><span>Nature Lover</span><b>✦</b>
+        </div>
+      </section>
+
+      <!-- ================================================================
+           PHOTO JOURNEY — Duplicate a POLAROID or SIMPLE PHOTO figure below
+           when you want to add more memories to a chapter.
+           ================================================================ -->
+      <section class="journey-section" id="journey">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> The timeline</p>
+          <h2>Every chapter<br />leaves a little <em>spark.</em></h2>
+          <p>Scroll through the snapshots. Every card is ready for a photo and a memory of your own.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="chapter chapter-yellow reveal">
+            <div class="chapter-meta">
+              <span class="chapter-number">01</span>
+              <p class="year">The early years<br /><strong>Pre Covid Days</strong></p>
+            </div>
+            <div class="chapter-content">
+              <p class="chapter-kicker">where it all began</p>
+              <h3>Small shoes.<br />Huge imagination.</h3>
+              <p class="chapter-text">Born in 2004, my story began with family days, scraped knees, and the beautiful chaos of being little.</p>
+              <!-- CHAPTER 1 PHOTOS: Replace each placeholder src with your image. -->
+              <div class="photo-row childhood-photos">
+                <!-- POLAROID: change image src AND edit the figcaption text below. -->
+                <figure class="polaroid polaroid-yellow tilt-right" data-full="assets/photos/childhood-01.jpg" data-caption="Summer holidays with my favourite people in 2009.">
+                  <div class="image-wrap"><img src="assets/placeholders/image3.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Summer holidays - 2017<span>’01</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="Summer holidays with my favourite people in 2009.">
+                  <div class="image-wrap"><img src="assets/placeholders/nandistatue.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Standing in front of India's second largest Nandi statue<span>’02</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-right" data-full="assets/photos/childhood-01.jpg" data-caption="First Music Studio made of news papers by us for playing Keyboard - 2020">
+                  <div class="image-wrap"><img src="assets/placeholders/studio.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>First Music Studio made of news papers by us for playing Keyboard - 2020<span>’03</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-right" data-full="assets/photos/childhood-01.jpg" data-caption="Using my friend's camera as mine for all the photo shoots">
+                  <div class="image-wrap"><img src="assets/placeholders/camera.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Using my friend's camera as mine for all the photo shoots<span>’04</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="My school Friends - 2018 - 1oth Standard">
+                  <div class="image-wrap"><img src="assets/placeholders/hrms.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>My school Friends - 2018<span>’05</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="Lock Down time Direction Skills">
+                  <div class="image-wrap"><img src="assets/placeholders/kokki.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Lock Down time Direction Skills<span>’06</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="Famous Bull in Kangayam">
+                  <div class="image-wrap"><img src="assets/placeholders/bull.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Bull in Kangayam<span>’07</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="Horse Ride">
+                  <div class="image-wrap"><img src="assets/placeholders/horse.jpeg" alt="Add childhood memory" /></div>
+                  <figcaption>Horse Ride<span>’08</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="wonderla">
+                  <div class="image-wrap"><img src="assets/placeholders/wonderla1.jpg" alt="Add childhood memory" /></div>
+                  <figcaption>wonderla amusement<span>’09</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-yellow tilt-left" data-full="assets/photos/childhood-01.jpg" data-caption="wonderla">
+                  <div class="image-wrap"><img src="assets/placeholders/wonderla2.jpg" alt="Add childhood memory" /></div>
+                  <figcaption>wonderla amusement<span>’10</span></figcaption>
+                </figure>
+
+                
+              </div>
+            </div>
+          </article>
+
+          <article class="chapter chapter-pink reveal">
+            <div class="chapter-meta">
+              <span class="chapter-number">02</span>
+              <p class="year">In Search of life<br /><strong>2021 — 2025</strong></p>
+            </div>
+            <div class="chapter-content">
+              <p class="chapter-kicker">growing &amp; glowing</p>
+              <h3>Friends, first dreams<br />and fearless leaps.</h3>
+              <p class="chapter-text">College corridors, late-night conversations, and discovering the thrill of a quick rally and a melody played just right.</p>
+              <!-- CHAPTER 2 PHOTOS: Replace each placeholder src with your image. -->
+              <div class="photo-row reverse">
+                
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="The place where I started my badminton journey in my streets">
+                  <div class="image-wrap"><img src="assets/placeholders/badminstart.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>The place where I started my badminton journey in my streets <span>♡</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="Famous Tourist Spot in Coimbatore near my college ">
+                  <div class="image-wrap"><img src="assets/placeholders/isha.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>Famous Tourist Spot in Coimbatore near my college <span>♡</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="Fun Hostel Times during washing clothes ">
+                  <div class="image-wrap"><img src="assets/placeholders/hostel.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>Fun Hostel Times during washing clothes <span>♡</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="During College trip whole gang stuck in rain">
+                  <div class="image-wrap"><img src="assets/placeholders/ooty1.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>During College trip whole gang stuck in rain <span>♡</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="Independence day with area kids">
+                  <div class="image-wrap"><img src="assets/placeholders/independence.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>Independence day with area kids<span>♡</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-pink tilt-left" data-full="assets/photos/growing-02.jpg" data-caption="Award Ceremony at college">
+                  <div class="image-wrap"><img src="assets/placeholders/Award.jpeg" alt="Add friends photo" /></div>
+                  <figcaption>College annual day<span>♡</span></figcaption>
+                </figure>
+
+              </div>
+            </div>
+          </article>
+
+          <article class="chapter chapter-blue reveal">
+            <div class="chapter-meta">
+              <span class="chapter-number">03</span>
+              <p class="year">Making moves<br /><strong></strong></p>
+            </div>
+            <div class="chapter-content">
+              <p class="chapter-kicker">building a life</p>
+              <h3>Family<br />Times</h3>
+              <p class="chapter-text">About my personal life.</p>
+              <!-- CHAPTER 3 PHOTOS: Replace each placeholder src with your image. -->
+              <div class="photo-row">
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="My Brother Birthday Celebration">
+                  <div class="image-wrap"><img src="assets/placeholders/birthdayns.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>My Brother Birthday Celebration <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="During My Brother Birthday Celebration">
+                  <div class="image-wrap"><img src="assets/placeholders/cousins.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Cousins <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="My Sister from the line of my great grand mother">
+                  <div class="image-wrap"><img src="assets/placeholders/sahi.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>My Sister <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Sahi's Fam">
+                  <div class="image-wrap"><img src="assets/placeholders/sahi fam.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Sahi's Fam <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Family">
+                  <div class="image-wrap"><img src="assets/placeholders/fams.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Family <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Mommyyyyy">
+                  <div class="image-wrap"><img src="assets/placeholders/mom.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Mommyyyy <span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Finding Talents in out Area by conducting Chess competetion">
+                  <div class="image-wrap"><img src="assets/placeholders/chess.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Finding Talents in out Area by conducting Chess competetion<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Sharing our whole good and bad things happened in that year">
+                  <div class="image-wrap"><img src="assets/placeholders/campfire.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Camp Fire - every year ends<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Home Town Special">
+                  <div class="image-wrap"><img src="assets/placeholders/bull2.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Kangayam - Home time special<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Devotional Time">
+                  <div class="image-wrap"><img src="assets/placeholders/Temple.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Family Times in temple<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Thiruchendur Murugan Temple">
+                  <div class="image-wrap"><img src="assets/placeholders/temple2.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Devotional Time<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Saanu's First Birthday">
+                  <div class="image-wrap"><img src="assets/placeholders/saanu.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Saanu's First Birthday<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Saanu's First Birthday">
+                  <div class="image-wrap"><img src="assets/placeholders/saanu2.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Saanu's First Birthday<span>✈</span></figcaption>
+                </figure>
+
+                <figure class="polaroid polaroid-blue tilt-right" data-full="assets/photos/adventure-01.jpg" data-caption="Friend's sister marriage">
+                  <div class="image-wrap"><img src="assets/placeholders/deepakakka.jpeg" alt="Add travel photo" /></div>
+                  <figcaption>Friend's Sister marriage<span>✈</span></figcaption>
+                </figure>
+              
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================================================================
+     PONGAL FESTIVAL — Replace [Your Area] and add your own photos.
+     ================================================================ -->
+<section class="festival-section" id="pongal">
+  <div class="festival-heading reveal">
+    <p class="eyebrow"><span></span> A celebration close to home</p>
+    <h2>Pongal in<br /><em>My Native.</em></h2>
+    <p>
+      A celebration of gratitude, harvest, family, colour, and the joy of
+      coming together as one community.
+    </p>
+
+    <div class="festival-details">
+      <span>☀ Thai Pongal</span>
+      <span>🌾 Harvest joy</span>
+      <span>🪔 Family &amp; tradition</span>
+    </div>
+  </div>
+
+  <!-- PONGAL PHOTOS: replace each placeholder image source below -->
+  <!-- Add as many Pongal photo cards as you want inside this row -->
+<div class="photo-row festival-photo-row reveal"
+tabindex="0"
+aria-label="Pongal festival photo gallery">
+
+<figure class="polaroid polaroid-yellow tilt-right">
+<div class="image-wrap">
+ <img src="assets/placeholders/Pongal1.JPG" alt="Pongal celebration" />
+</div>
+<figcaption>Pongal celebration <span>01</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/Pongal3.JPG" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>02</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/Pongal 4.JPG" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>03</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/pongal5.jpeg" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>04</span></figcaption>
+</figure>
+
+
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/pongal7.jpeg" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>05</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/pongal8.jpeg" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>06</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/pongal9.jpeg" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>07</span></figcaption>
+</figure>
+
+<figure class="polaroid polaroid-yellow tilt-right">
+  <div class="image-wrap">
+   <img src="assets/placeholders/pongal10.jpeg" alt="Pongal celebration" />
+  </div>
+  <figcaption>Pongal celebration <span>08</span></figcaption>
+</figure>
+
+<article class="video-card reveal">
+  <div class="video-label"><span>09</span> On the Pongal Festival</div>
+  <video controls preload="metadata" poster="assets/placeholders/Pongal1.JPG" aria-label="">
+    <source src="assets/placeholders/happypongal.mp4" type="video/mp4" />
+    Your browser does not support HTML video.
+  </video>
+  <p>Climax of Pongal.</p>
+</article>
+
+
+
+<!-- Copy and paste more figure cards here -->
+
+</div>
+</section>
+
+<!-- ================================================================
+     TRAVEL DIARIES — Add only Polaroid photo cards in this section.
+     ================================================================ -->
+     <section class="travel-section" id="travel">
+      <div class="travel-heading reveal">
+        <p class="eyebrow"><span></span> My travel diaries</p>
+        <h2>Miles travelled.<br /><em>Memories collected.</em></h2>
+        <p>
+          Every journey gives me a new story, a new view, and another memory
+          worth keeping.
+        </p>
+    
+        <div class="travel-route">
+          <span>✦ Explore</span>
+          <i></i>
+          <span>✦ Capture</span>
+          <i></i>
+          <span>✦ Remember</span>
+        </div>
+      </div>
+    
+      <!-- Add every travel Polaroid inside this scrolling row. -->
+      <div class="photo-row travel-photo-row reveal"
+           tabindex="0"
+           aria-label="Travel diary photo gallery">
+    
+        <!-- TRAVEL POLAROID 1 -->
+        <figure class="polaroid travel-card travel-card-one tilt-left"
+          data-caption="My first travel memory.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/Trip1.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>First stop <span>01</span></figcaption>
+        </figure>
+    
+        <!-- TRAVEL POLAROID 2 -->
+        <figure class="polaroid travel-card travel-card-two tilt-right"
+          data-caption="A view worth remembering.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip2.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>Chasing views <span>02</span></figcaption>
+        </figure>
+    
+        <!-- TRAVEL POLAROID 3 -->
+        <figure class="polaroid travel-card travel-card-three tilt-left"
+          data-caption="A beautiful day on the road.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/Trip3.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>On the road <span>03</span></figcaption>
+        </figure>
+    
+        <!-- TRAVEL POLAROID 4 -->
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/Trip4.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>04</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/Trip5.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>05</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip6.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>06</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip7.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>07</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip8.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>08</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip9.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>09</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip10.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>10</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip11.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>11</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip12.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>12</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip13.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>13</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip14.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>14</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip15.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>15</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip16.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>16</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip17.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>17</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip18.jpg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>18</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip19.jpeg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>19</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip20.jpeg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>20</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip21.jpeg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>21</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip22.jpeg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>22</span></figcaption>
+        </figure>
+
+        <figure class="polaroid travel-card travel-card-four tilt-right"
+          data-caption="Another unforgettable travel story.">
+          <div class="image-wrap">
+            <img src="assets/placeholders/trip23.jpeg"
+                 alt="Add travel photo" />
+          </div>
+          <figcaption>New horizons <span>23</span></figcaption>
+        </figure>
+
+        <article class="video-card reveal">
+          <div class="video-label"><span>09</span> On the Pongal Festival</div>
+          <video controls preload="metadata" poster="assets/placeholders/trip10.jpg" aria-label="">
+            <source src="assets/placeholders/tripv1.mp4" type="video/mp4" />
+            Your browser does not support HTML video.
+          </video>
+          <p>glimpse of pune hills</p>
+        </article>
+
+        
+    
+        <!-- Copy any travel-card figure above and paste it here for more photos -->
+    
+      </div>
+    </section>
+
+      <!-- ================================================================
+           PASSIONS — Badminton, keyboard, and athlete highlights.
+           ================================================================ -->
+      <section class="passion-section" aria-labelledby="passion-title">
+        <div class="passion-heading reveal">
+          <p class="eyebrow"><span></span> My rhythm</p>
+          <h2 id="passion-title">Movement. Music.<br /><em>Momentum.</em></h2>
+        </div>
+        <div class="passion-grid">
+          <article class="passion-card badminton-card reveal">
+            <div class="court-lines" aria-hidden="true"></div>
+            <span class="card-index">01 / PASSION</span>
+            <div class="passion-icon shuttle-mini" aria-hidden="true">◉</div>
+            <h3>Badminton</h3>
+            <p>For the quick feet, clear mind, and electric feeling of the perfect shot.</p>
+            <span class="card-tag">Play to win</span>
+          </article>
+          <article class="passion-card keyboard-card reveal">
+            <span class="card-index">02 / PASSION</span>
+            <div class="keys" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <h3>Keyboard</h3>
+            <p>For turning quiet moments into melody, one key at a time.</p>
+            <span class="card-tag">Feel the beat</span>
+          </article>
+          <article class="passion-card athlete-card reveal">
+            <span class="card-index">03 / MINDSET</span>
+            <div class="track" aria-hidden="true"><i></i><i></i><b></b></div>
+            <h3>Athlete</h3>
+            <p>For showing up, staying steady, and becoming stronger every day.</p>
+            <span class="card-tag">Keep moving</span>
+          </article>
+        </div>
+      </section>
+
+
+      <!-- ================================================================
+     OFFICE OUTINGS — Add more Polaroid cards inside this photo row.
+     ================================================================ -->
+<section class="office-section" id="office-outings">
+  <div class="office-heading reveal">
+    <p class="eyebrow"><span></span> Work, but make it memorable</p>
+    <h2>Office days,<br /><em>outside the office.</em></h2>
+    <p>Good people, shared laughs, and memories made beyond the desk.</p>
+  </div>
+
+  <div class="photo-row office-photo-row reveal"
+       tabindex="0"
+       aria-label="Office outing photo gallery">
+
+    <figure class="polaroid polaroid-yellow tilt-right">
+      <div class="image-wrap">
+        <img src="assets/placeholders/off1.jpeg" alt="Office outing photo 1" />
+      </div>
+      <figcaption>Team day out <span>01</span></figcaption>
+    </figure>
+
+    <figure class="polaroid polaroid-pink tilt-left">
+      <div class="image-wrap">
+        <img src="assets/placeholders/off2.jpeg" alt="Office outing photo 2" />
+      </div>
+      <figcaption>Good times together <span>02</span></figcaption>
+    </figure>
+
+    <figure class="polaroid polaroid-blue tilt-right">
+      <div class="image-wrap">
+        <img src="assets/placeholders/off3.jpeg" alt="Office outing photo 3" />
+      </div>
+      <figcaption>Out with the team <span>03</span></figcaption>
+    </figure>
+
+    <figure class="polaroid polaroid-yellow tilt-left">
+      <div class="image-wrap">
+        <img src="assets/placeholders/off4.jpeg" alt="Office outing photo 4" />
+      </div>
+      <figcaption>One for the memories <span>04</span></figcaption>
+    </figure>
+
+
+  </div>
+</section>
+      <!-- ================================================================
+           CONTACT — Replace the email address with your own when ready.
+           ================================================================ -->
+      <section class="hello-section" id="hello">
+        <p class="eyebrow"><span></span> Let’s connect</p>
+        <h2>Thanks for<br /><em>stopping by.</em></h2>
+        <figure class="farewell-photo">
+          <img src="assets/placeholders/end.jpeg" alt="Thank you" />
+        </figure>
+        <!-- Replace the email address with your own. -->
+        
+      </section>
+    </main>
+
+    <!-- ================================================================
+         FOOTER
+         ================================================================ -->
+    <footer>
+      <p>Made with lots of memories <span>♥</span></p>
+      <p>© <span id="year"></span> Kawin Hari</p>
+    </footer>
+
+    <dialog class="lightbox" aria-label="Photo preview">
+      <button class="close-lightbox" aria-label="Close photo preview">×</button>
+      <img src="assets/placeholders/end.jpeg" alt="Thank you" />
+      <p>Thank you</p>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>

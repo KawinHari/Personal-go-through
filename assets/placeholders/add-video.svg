@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Video placeholder</title>
+  <desc id="desc">A patterned area prompting you to add a video</desc>
+  <defs>
+    <pattern id="dots" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="3" fill="#1d2940" opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="#f9ce48"/>
+  <rect width="1280" height="720" fill="url(#dots)"/>
+  <rect x="55" y="55" width="1170" height="610" rx="10" fill="none" stroke="#1d2940" stroke-width="4" stroke-dasharray="15 15" opacity=".5"/>
+  <circle cx="640" cy="310" r="84" fill="#fa6d61" stroke="#1d2940" stroke-width="6"/>
+  <path d="M615 266v88l74-44z" fill="#fffdf8"/>
+  <g fill="#1d2940" text-anchor="middle">
+    <text x="640" y="488" font-family="Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="5">ADD A VIDEO</text>
+    <text x="640" y="538" font-family="Arial, sans-serif" font-size="22" letter-spacing="2" opacity=".7">YOUR MOMENT IN MOTION</text>
+  </g>
+</svg>
